@@ -4,6 +4,8 @@ header('Content-Type: application/json; charset=utf-8');
 
 require_once("_autoload.php");
 
+// TESTE
+
 $crud = new App\Models\Crud;
 
 $path = explode("/", @$_GET["path"]);
